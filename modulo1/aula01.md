@@ -23,3 +23,8 @@ Na notação acima, chamamos o conjunto $A$ de **domínio** da função $f$ e o 
 
 ## Formalizando
 
+Uma função é uma relação de um conjunto $A$ num conjunto $B$ tal que cada elemento de $A$ está associado a um único elemento de $B$.
+
+## Imagem
+
+A imagem de uma função é o conjunto de todos os elementos do contradomínio que estão associados a algum elemento do domínio.

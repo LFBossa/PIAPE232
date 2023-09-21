@@ -1,5 +1,6 @@
 # Funções: definição, domínio, contradomínio e imagem.
 
+## Introdução 
 
 Antes de mais nada, precisamos nos situar. Eu assumo que vocês já tenham algum conhecimento de teoria dos conjuntos: noção intuitiva do que é um conjunto, o que significa dizer que um elemento pertence a um conjunto. 
 
@@ -10,7 +11,15 @@ Sem adentrar no mundo matemático, podemos pensar em uma função associando cad
 Podemos pensar então em algo como
 
 ```mermaid
-stateDiagram
+flowchart LR
     chaves --> fechaduras
     placas --> veículos
 ```
+
+Em notação matemática, usamos a notação $$f:A\to B$$ para representar uma função de nome $f$ que associa elementos do conjunto $A$ a elementos do conjunto $B$.
+
+Na notação acima, chamamos o conjunto $A$ de **domínio** da função $f$ e o conjunto $B$ de **contradomínio**.
+
+
+## Formalizando
+

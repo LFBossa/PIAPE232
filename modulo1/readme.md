@@ -1,4 +1,8 @@
-# Ementa do Módulo de Funções
+# Módulo Funções
+
+Tutor: Bossa
+
+Data: 2 - 31 outubro 2023
 
 1. [Funções: definição, domínio, contradomínio e imagem.](./aula01.md)
 2. Funções de variável real.

@@ -60,8 +60,8 @@ A conjunção, também chamada de operador `e`, é denotada pelo símbolo $\wedg
 
 _Exemplo_
 
-- $p = $ "A lua é cinza"
-- $q =$ "A lua é cheia de crateras" 
+- $p=$ "A lua é cinza"
+- $q=$ "A lua é cheia de crateras" 
 - $p\wedge q$ = "A lua é cinza e a lua é cheia de crateras". 
 
 Dadas duas proposições $p$ e $q$, o valor-verdade de $p\wedge q$ será verdadeiro somente quando $p$ e $q$ forem ambas verdadeiras. Caso contrário, o valor da conjunção será falso. 
@@ -142,3 +142,47 @@ Dadas duas proposições $p$ e $q$, o valor-verdade da bicondicional $p\leftrigh
 |  V  |  F  |  F |
 |  F  |  V  |  F |
 |  F  |  F  |  V |
+
+
+## Lógica de predicados
+
+Nem toda lógica pode ser descrita usando proposições. As vezes, queremos fazer afirmações sobre elementos de conjuntos. Um _predicado_ denota uma relação entre objetos de um determinado contexto de discurso. Esse contexto de discurso é um conjunto no qual os objetos existem. 
+
+_Exemplos_
+- Sócrates é mortal
+- O número 2 é primo
+- Um pássaro voa 
+
+Nesse caso, simbolizamos os predicados com letras maiúsculas, e deixamos uma _variável_
+
+- M(x) = x é mortal
+- P(x) = x é primo
+- V(x) = x voa
+
+As frases acima se traduzem como
+
+- M(Sócrates)
+- P(2)
+- V(pássaro)
+
+
+
+### Quantificadores
+
+Quando estamos falando de predicados, geralmente queremos fazer afirmações do tipo 
+- Existe um elemento com tal propriedade
+- Todo elemento satisfaz essa propriedade
+
+Para isso, usamos os quantificadores
+
+#### Existe $\exists$
+
+Dado um predicado $P$, a seguinte construção pode ser feita
+$$\exists x, P(x)$$
+existe um x tal que P(x)
+
+#### Para todo $\forall$
+
+$$\forall x, P(x)$$
+
+para todo x, P(x)

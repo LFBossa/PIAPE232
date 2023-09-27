@@ -151,9 +151,9 @@ Nem toda lógica pode ser descrita usando proposições. As vezes, queremos faze
 _Exemplos_
 - Sócrates é mortal
 - O número 2 é primo
-- Um pássaro voa 
+- Um pássaro voa
 
-Nesse caso, simbolizamos os predicados com letras maiúsculas, e deixamos uma _variável_
+Nesse caso, simbolizamos os predicados com letras maiúsculas, e deixamos uma _variável livre_, abaixo denotada por $x$.
 
 - M(x) = x é mortal
 - P(x) = x é primo
@@ -175,14 +175,19 @@ Quando estamos falando de predicados, geralmente queremos fazer afirmações do 
 
 Para isso, usamos os quantificadores
 
-#### Existe $\exists$
+#### Existe
 
-Dado um predicado $P$, a seguinte construção pode ser feita
+Considerando o predicado $P$ anterior, a seguinte construção
 $$\exists x, P(x)$$
-existe um x tal que P(x)
+ é lida como "existe um x tal que P(x)". Como P(x) significa "x é primo", a construção se traduz como 
 
-#### Para todo $\forall$
+> Existe um x que é primo
 
-$$\forall x, P(x)$$
+#### Para todo
 
-para todo x, P(x)
+Considerando o predicado M acima, a construção
+$$\forall x, M(x)$$
+é lida como "para todo x, M(x)". Como M(x) significa "x é mortal", a construção se traduz como
+> Todo x é mortal 
+
+

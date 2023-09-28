@@ -143,8 +143,46 @@ Dadas duas proposições $p$ e $q$, o valor-verdade da bicondicional $p\leftrigh
 |  F  |  V  |  F |
 |  F  |  F  |  V |
 
+# Contradição e Tautologia
 
-## Lógica de predicados
+> Uma contradição é uma proposição composta que possui o valor-verdade sempre falso, independente do valor-verdade das proposições atômicas que o constituem.
+
+_Exemplo_
+$$p \wedge \sim p$$
+
+> Uma tautologia é uma proposição composta que possui o valor-verdade sempre verdadeiro, independente do valor-verdade das proposições atômicas que o constituem.
+
+_Exemplo_
+$$ p \vee \sim p$$
+
+# Validade de argumentos
+
+Um _argumento_ é composto de uma lista de proposiçoes $p_1, p_2, \ldots, p_n$ que serão chamadas de _premissas_, e uma proposiçao _q_ chamada de _conclusão_. 
+> Dizemos que o argumento é _válido_ se, toda vez que as premissas forem todas verdadeiras, a conclusão também é verdadeira. 
+
+Quando o argumento é válido, denotamos por 
+$$ p_1, p_2, \ldots, p_n \models q$$
+
+_Exemplo 1_
+
+- $p_1=$ "se choveu hoje então a rua está molhada"
+- $p_2=$ "a rua não está molhada"
+- $q_1=$ "não choveu hoje"
+
+O argumento acima é válido (construir a tabela-verdade).
+
+
+_Exemplo 2_
+
+- $p_1=$ "se choveu hoje então a rua está molhada"
+- $p_3=$ "não choveu hoje"
+- $q_2=$ "a rua não está molhada"
+
+O argumento acima é inválido (construir a tabela-verdade).
+
+
+
+# Lógica de predicados
 
 Nem toda lógica pode ser descrita usando proposições. As vezes, queremos fazer afirmações sobre elementos de conjuntos. Um _predicado_ denota uma relação entre objetos de um determinado contexto de discurso. Esse contexto de discurso é um conjunto no qual os objetos existem. 
 
@@ -167,7 +205,7 @@ As frases acima se traduzem como
 
 
 
-### Quantificadores
+## Quantificadores
 
 Quando estamos falando de predicados, geralmente queremos fazer afirmações do tipo 
 - Existe um elemento com tal propriedade
@@ -175,7 +213,7 @@ Quando estamos falando de predicados, geralmente queremos fazer afirmações do 
 
 Para isso, usamos os quantificadores
 
-#### Existe
+### Existe
 
 Considerando o predicado $P$ anterior, a seguinte construção
 $$\exists x, P(x)$$
@@ -183,7 +221,7 @@ $$\exists x, P(x)$$
 
 > Existe um x que é primo
 
-#### Para todo
+### Para todo
 
 Considerando o predicado M acima, a construção
 $$\forall x, M(x)$$

@@ -1,0 +1,2 @@
+# Gráfico de uma função
+O gráfico de uma função é uma representação visual da relação entre os elementos do domínio e os elementos do contradomínio. Ele mostra como os valores de entrada se relacionam com os valores de saída da função.
